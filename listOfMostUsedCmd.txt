@@ -1,0 +1,34 @@
+
+There is list of most used command of docker in CLI:
+
+* mind use "sudo" if user is not known by docker deamon.!
+
+docker ps
+-> list container runing 
+
+docker ps -a
+-> list container runing and stoped 
+
+docker stop "containerName" 
+-> stop container from runing 
+
+docker rm "containerName"
+-> kill container
+
+docker volume ls
+-> list volume known and stored on host 
+ 
+docker volume rm "volumeName"
+-> delete volume from host machine
+
+docker compose up -d
+-> mount container from config in docker-compose.yml
+
+docker exec -it user-db bash | or | sudo docker exec -it user-db sh (if bash not supported)
+-> get in container shell to execute bash script 
+
+	flags :
+
+	* -i : interactive, let tip cmd lines.
+	* -t : styling like terminal 
+ 
