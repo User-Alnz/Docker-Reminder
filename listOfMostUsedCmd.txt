@@ -32,3 +32,7 @@ docker exec -it "containerName" bash | or | sudo docker exec -it "containerName"
 	* -i : interactive, let tip cmd lines.
 	* -t : styling like terminal 
  
+docker volume inspect "volumeName"
+-> display details of volume. "Mountpoint" shows where data persist. 
+
+
