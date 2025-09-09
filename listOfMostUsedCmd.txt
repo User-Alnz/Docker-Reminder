@@ -24,7 +24,7 @@ docker volume rm "volumeName"
 docker compose up -d
 -> mount container from config in docker-compose.yml
 
-docker exec -it user-db bash | or | sudo docker exec -it user-db sh (if bash not supported)
+docker exec -it "containerName" bash | or | sudo docker exec -it "containerName" sh (if bash not supported)
 -> get in container shell to execute bash script 
 
 	flags :
